@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+    color:black;
+}
+body,html{
+    width:100%;
+    height:100vh;
+    text-align:center;
+    overflow-y: hidden;
+    background-color:#474853;
+}
+
+#toppos{
+
+    position: absolute;
+    top:0;
+    width:100%;
+    height:50vh;
+    background:#ADADAD;
+    z-index: 99;
+}
+
+#top-h{
+    font-size:8vw;
+    position: absolute;
+    top:95%;
+    left:10%;
+    line-height: 1vw;
+    color:black;
+}
+#bottom{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:50vh;
+    background:#ADADAD    ;
+    
+    font-family:'poppins',sans-serif;
+
+}
+#bottom-h{
+    font-size:8vw;
+    position: absolute;
+    top:-4.9%;
+    left:10%;
+    line-height: 1vw;
+    z-index: 99;
+    color:black;
+}
+
+#form-group{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    height:80vh;
+    width:50%;
+    margin:20px auto;
+    gap:10px;
+    padding-top: 100px;
+
+}
+.texfield{
+    height:5vh;
+    width:70%;
+    margin:0px auto;
+    border-radius:5px;
+    font-weight: 800;
+}
+
+#form-group h1{
+    margin-top:0px;
+}
+
+
+
+#btn2{
+    margin:8% auto;
+    padding:20px  20px;
+    background:gray;
+    font-family: 'poppins',sans-serif;
+    border-radius: 5px;
+}
+
+
+
+
+#btn{
+    height:5vh;
+    width:70%;
+    margin:6% auto;
+    background:gray;
+    cursor: pointer;
+    border-radius: 5px;
+    color:white;
+}
+#btn3{
+    height:5vh;
+    width:70%;
+    margin:0px auto;
+    background:gray;
+    cursor: pointer;
+    border-radius: 5px;
+    color:white;
+    margin-top:-30px;
+    background: #464866;
+}
+#popup{
+    position:absolute;
+    height:350px;
+    width:350px;
+    background:whitesmoke;
+    margin-left:40%;
+    margin-top:-28%; 
+    display: none;  
+}
+#innerpopup{
+    height:50px;
+    width:auto;
+    font-size:2vw;
+}
+
+#popup img{
+    width:80px;
+    margin-top:-45px;
+    border-radius:50%;
+    box-shadow:0 2px  5px rgba(0, 0, 0, 0.2
+    3);
+
+}
